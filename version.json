@@ -1,9 +1,9 @@
 {
-  "versionCode": 7,
-  "versionName": "1.0.6",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.6/video-collector-androidtv-v1.0.6.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.6.apk",
-  "size": 4355142,
-  "md5": "39952dcbf80cf820d77bb88784aefc3a",
-  "notes": "1. 修 DNS 误切换：系统 DNS 能用时不再一路跳到最后一个不好用的 DNS\n2. 刚成功过 60 秒内遇到失败，只当偶发，不换 DNS\n3. 连不上 / 超时这类网络错误，只有新 DNS 解析出的地址确实不同才换（解析不出、证书错才无条件换）\n4. 一次请求最多换一个 DNS，换完还是失败就回系统 DNS，不把用户钉在最后一档\n5. 中间档卡住超过 90 秒也会回系统重判，不再只在最后一档才回退\n6. 更新清单新增 Release latest 直链（不吃 CDN 缓存），发版即生效\n7. 暂停时左上角显示剧名（剧名 · 集名），继续播放自动淡出"
+  "versionCode": 8,
+  "versionName": "1.0.7",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.7/video-collector-androidtv-v1.0.7.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.7.apk",
+  "size": 4355854,
+  "md5": "8c5576ee5c6ef0a0af560b6efe5ffc99",
+  "notes": "1. 去掉自动换 DNS（真实网络里判错的代价太大，会把本来能用的系统 DNS 换掉）\n2. 默认跟随系统 DNS；换 DNS 改为设置里手动选，选过会记住\n3. 接口请求失败自动重试 3 次（0.5s / 1.5s 退避）；4xx 不重试，5xx / 连不上 / 超时 / 解析失败才重试\n4. 播放失败自动重试 3 次（间隔 0.7s / 1.4s / 2.1s），播起来后重试额度复位\n5. 首页只提示「系统 DNS 可能被劫持」，不再自动切换\n6. 更新清单新增 Release latest 直链（不吃 CDN 缓存），发版即生效\n7. 暂停时左上角显示剧名（剧名 · 集名），继续播放自动淡出"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 5,
-  "versionName": "1.0.4",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.4/video-collector-androidtv-v1.0.4.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.4.apk",
-  "size": 4354330,
-  "md5": "8edfaaa1737942d9aa9cb9cd83280634",
-  "notes": "1. 暂停时左上角浮出剧名（剧名 · 集名），继续播放自动淡出\n2. 剧名条只在真的播起来过之后才出现，刚进来缓冲不会闪\n3. 更新检测：jsDelivr 优先（快），确认有新版立刻返回；\n   jsDelivr 缓存旧清单时会继续读实时源，不会漏掉新版本\n4. 其余同一版：内置源 / 历史收藏 / 搜索页遥控器键盘 / DNS 自动切换 / 应用内更新"
+  "versionCode": 6,
+  "versionName": "1.0.5",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.5/video-collector-androidtv-v1.0.5.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.5.apk",
+  "size": 4355110,
+  "md5": "c8e632c61181ceb0fe97da1555348ac2",
+  "notes": "1. 修 DNS 误切换：系统 DNS 能用时不再一路跳到最后一个不好用的 DNS\n2. 刚成功过 60 秒内遇到失败，只当偶发，不换 DNS\n3. 连不上 / 超时这类网络错误，只有新 DNS 解析出的地址确实不同才换（解析不出、证书错才无条件换）\n4. 一次请求最多换一个 DNS，换完还是失败就回系统 DNS，不把用户钉在最后一档\n5. 中间档卡住超过 90 秒也会回系统重判，不再只在最后一档才回退\n6. 暂停时左上角显示剧名（剧名 · 集名），继续播放自动淡出"
 }

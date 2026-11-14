@@ -1,9 +1,9 @@
 {
-  "versionCode": 4,
-  "versionName": "1.0.3",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.3/video-collector-androidtv-v1.0.3.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.3.apk",
-  "size": 4354366,
-  "md5": "050aaff9b60a3e67916953d478bd108d",
-  "notes": "1. 暂停时左上角浮出剧名（剧名 · 集名），继续播放自动淡出\n2. 剧名条只在真的播起来过之后才出现，刚进来缓冲不会闪\n3. 更新检测改多地址择优：jsDelivr 缓存旧清单时也会继续读实时源，不再漏掉新版本\n4. 其余同一版：内置源 / 历史收藏 / 搜索页遥控器键盘 / DNS 自动切换 / 应用内更新"
+  "versionCode": 5,
+  "versionName": "1.0.4",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.4/video-collector-androidtv-v1.0.4.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.4.apk",
+  "size": 4354330,
+  "md5": "8edfaaa1737942d9aa9cb9cd83280634",
+  "notes": "1. 暂停时左上角浮出剧名（剧名 · 集名），继续播放自动淡出\n2. 剧名条只在真的播起来过之后才出现，刚进来缓冲不会闪\n3. 更新检测：jsDelivr 优先（快），确认有新版立刻返回；\n   jsDelivr 缓存旧清单时会继续读实时源，不会漏掉新版本\n4. 其余同一版：内置源 / 历史收藏 / 搜索页遥控器键盘 / DNS 自动切换 / 应用内更新"
 }

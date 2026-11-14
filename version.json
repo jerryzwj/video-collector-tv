@@ -1,9 +1,9 @@
 {
-  "versionCode": 14,
-  "versionName": "1.0.13",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.13/video-collector-androidtv-v1.0.13.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.13.apk",
-  "size": 4360786,
-  "md5": "8dee2a8f373c767f65a16f81f7bc60b8",
-  "notes": "1. 修手机模式的两侧黑边：挖孔区短边模式改成两种模式都设，横屏时左右不再留黑条\n2. 修手机模式留白叠加：原来改的是外层容器，内层还有 32/40dp，内容反而更窄；现在直接改内层\n3. 手机模式顶栏收一档：标题 24sp→20sp，顶栏按钮 18sp→15sp、收藏/历史 16sp→13sp，内边距压缩\n4. 手机模式列数重排：剧集卡 4 列（≥900dp 5 列 / ≥600dp 4 列 / 其余 3 列），集数按钮 6 列\n5. TV 模式行为完全不变"
+  "versionCode": 15,
+  "versionName": "1.0.14",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.14/video-collector-androidtv-v1.0.14.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.14.apk",
+  "size": 4364030,
+  "md5": "4325979b179b1369c4a239295bcf206b",
+  "notes": "1. 手机模式改成真正的手机版式：竖屏、三列竖版海报、片名与集数压在海报底部（底部渐变托底）\n2. 手机首页重排：顶栏「App 名 + 圆角搜索框 + 换源」，分类改成文字 Tab（选中变绿），底部三个入口「收藏 / 历史 / 设置」\n3. 手机模式列数与尺寸：海报网格 3 列（≥600dp 4 列），集数按钮 4 列（≥600dp 5 列）\n4. 列表接口不返回封面时，手机模式留一块底色占位，卡片不会塌成一条\n5. TV 模式完全不变：横屏、遥控器焦点、原布局原列数"
 }

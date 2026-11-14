@@ -1,9 +1,9 @@
 {
-  "versionCode": 9,
-  "versionName": "1.0.8",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.8/video-collector-androidtv-v1.0.8.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.8.apk",
-  "size": 4356122,
-  "md5": "0db08c8d1eaccee7034f2f9503b0f416",
-  "notes": "1. DNS 彻底纯手动：默认跟随系统，App 不判断、不自动切换，网络变化也不自动复位\n2. 换 DNS 只在 设置 → DNS 手动切换，选完记住，重启沿用\n3. 接口请求失败重试 5 次（0.6s / 1.2s / 2.0s / 3.0s 退避）；4xx 不重试\n4. 首页加载失败先自动重试 4 次，再自动换源最多 3 次，全不行才弹「重试」对话框\n5. 播放失败重试 5 次（0.7s 起逐档拉长），播起来后额度复位\n6. 播放控制栏浮出时也显示剧名，收起后继续播就淡出、暂停保留\n7. 更新清单优先走 GitHub 加速镜像（ghfast / gh-proxy / ghproxy），短超时逐条兜底"
+  "versionCode": 11,
+  "versionName": "1.0.10",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.10/video-collector-androidtv-v1.0.10.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.10.apk",
+  "size": 4357530,
+  "md5": "c252dbad0b9ddadb61a7e3df81b425fc",
+  "notes": "1. 彻底取消自动换源：加载失败只在同一个源重试 4 次，还不行弹「重试」对话框，换源只能手动点右上角「换源」\n2. DNS 同样是全手动：设置页每档可用遥控器上下选中、按 OK 立即生效，没有任何自动切换或自动复位\n3. DNS 档位：系统 / 阿里 / 腾讯 / 114 / 谷歌 8.8.8.8 / Cloudflare 1.1.1.1，每档带主备地址\n4. 切换 DNS 后立刻解析一次源站，把结果 IP 显示出来，能看出到底生效没有\n5. 请求重试 5 次、播放重试 5 次保持不变"
 }

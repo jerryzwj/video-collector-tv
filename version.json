@@ -1,9 +1,9 @@
 {
-  "versionCode": 11,
-  "versionName": "1.0.10",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.10/video-collector-androidtv-v1.0.10.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.10.apk",
-  "size": 4357530,
-  "md5": "c252dbad0b9ddadb61a7e3df81b425fc",
-  "notes": "1. 彻底取消自动换源：加载失败只在同一个源重试 4 次，还不行弹「重试」对话框，换源只能手动点右上角「换源」\n2. DNS 同样是全手动：设置页每档可用遥控器上下选中、按 OK 立即生效，没有任何自动切换或自动复位\n3. DNS 档位：系统 / 阿里 / 腾讯 / 114 / 谷歌 8.8.8.8 / Cloudflare 1.1.1.1，每档带主备地址\n4. 切换 DNS 后立刻解析一次源站，把结果 IP 显示出来，能看出到底生效没有\n5. 请求重试 5 次、播放重试 5 次保持不变"
+  "versionCode": 12,
+  "versionName": "1.0.11",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.11/video-collector-androidtv-v1.0.11.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.11.apk",
+  "size": 4357678,
+  "md5": "e69a10f47ee0a5125cc6406e786e93a7",
+  "notes": "1. 修 DNS 弹窗：内容放进可滚动区域并加高窗口，六档不再被屏幕裁掉，遥控器移到哪一项就自动滚到哪一项\n2. DNS 六档：系统 / 阿里 / 腾讯 / 114 / 谷歌 8.8.8.8 / Cloudflare 1.1.1.1，每档带主备地址\n3. 换源与 DNS 全部手动，没有任何自动切换；加载失败只在同一源重试 4 次后弹「重试」对话框\n4. 切换 DNS 后立刻解析一次源站并显示结果 IP"
 }

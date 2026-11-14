@@ -1,9 +1,9 @@
 {
-  "versionCode": 13,
-  "versionName": "1.0.12",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.12/video-collector-androidtv-v1.0.12.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.12.apk",
-  "size": 4360358,
-  "md5": "43f3b0f05640906d401386ae005a7577",
-  "notes": "1. 新增界面模式一键切换：设置 → 界面模式（自动识别 / TV 遥控器 / 手机触屏），选完立刻重排，不用退 App\n2. 自动识别：有触屏且不是电视系统 → 手机模式；否则 TV 模式\n3. 手机模式：保留状态栏与导航栏、外层留白 32dp→16dp、网格列数减少（卡片更适合手指点）、允许左右翻转\n4. TV 模式行为不变：隐藏系统栏、全屏沉浸、原列数分档\n5. 播放页两种模式都全屏"
+  "versionCode": 14,
+  "versionName": "1.0.13",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.13/video-collector-androidtv-v1.0.13.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.13.apk",
+  "size": 4360786,
+  "md5": "8dee2a8f373c767f65a16f81f7bc60b8",
+  "notes": "1. 修手机模式的两侧黑边：挖孔区短边模式改成两种模式都设，横屏时左右不再留黑条\n2. 修手机模式留白叠加：原来改的是外层容器，内层还有 32/40dp，内容反而更窄；现在直接改内层\n3. 手机模式顶栏收一档：标题 24sp→20sp，顶栏按钮 18sp→15sp、收藏/历史 16sp→13sp，内边距压缩\n4. 手机模式列数重排：剧集卡 4 列（≥900dp 5 列 / ≥600dp 4 列 / 其余 3 列），集数按钮 6 列\n5. TV 模式行为完全不变"
 }

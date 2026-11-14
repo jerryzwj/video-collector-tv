@@ -1,0 +1,9 @@
+{
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.1/video-collector-androidtv-v1.0.1.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.1.apk",
+  "size": 4353190,
+  "md5": "0407723e8edda20048917751a086adb1",
+  "notes": "1. 内置 FFZY 采集源，默认不加载远程源\n2. 播放历史 / 收藏，入口在主页\n3. 独立搜索页，支持遥控器输入法与内置字母键盘\n4. DNS 被劫持自动切换并重新检测\n5. 应用内更新（本次首发）"
+}

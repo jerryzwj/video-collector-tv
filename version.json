@@ -1,9 +1,9 @@
 {
-  "versionCode": 15,
-  "versionName": "1.0.14",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.14/video-collector-androidtv-v1.0.14.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.14.apk",
-  "size": 4364030,
-  "md5": "4325979b179b1369c4a239295bcf206b",
-  "notes": "1. 手机模式改成真正的手机版式：竖屏、三列竖版海报、片名与集数压在海报底部（底部渐变托底）\n2. 手机首页重排：顶栏「App 名 + 圆角搜索框 + 换源」，分类改成文字 Tab（选中变绿），底部三个入口「收藏 / 历史 / 设置」\n3. 手机模式列数与尺寸：海报网格 3 列（≥600dp 4 列），集数按钮 4 列（≥600dp 5 列）\n4. 列表接口不返回封面时，手机模式留一块底色占位，卡片不会塌成一条\n5. TV 模式完全不变：横屏、遥控器焦点、原布局原列数"
+  "versionCode": 16,
+  "versionName": "1.0.15",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.15/video-collector-androidtv-v1.0.15.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.15.apk",
+  "size": 4365698,
+  "md5": "d46c393a8caa5572e1e3f45116dfd9e1",
+  "notes": "1. 手机竖屏剧集卡圆角统一：卡片改成纯圆角底 + clipToOutline，海报和底部渐变一起裁成同一个圆角，不再上半直角、下半圆角\n2. 选集页点一集直接播放，提示改成「共 N 集 · 点一集直接播放，长按可勾选下载」\n3. 新增下载：长按集数勾选（勾中有绿框和 ✓），点右上「下载 (N)」批量下载\n4. 保存目录用系统文件选择器点选，选一次就记住（长按「下载」按钮可重选），不需要存储权限\n5. 下载走 App 自己的 HTTP 层，设置里的手动 DNS 对分片同样生效；m3u8 支持分片与 AES-128，直链边下边写，进度显示在提示行"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 29,
-  "versionName": "1.0.28",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.28/video-collector-androidtv-v1.0.28.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.28.apk",
-  "size": 4397087,
-  "md5": "1bd2c104e085b54b4d7bac424f0e6d6e",
-  "notes": "1. 手动切换 TV / 手机模式后主页立刻跟随：回来时对比实际采用的版式，不一致就按新版式整页重建，方向也一起切\n2. 主页加载失败可刷新：连不上时那行提示文字直接点一下就重新拉，遥控器按弹窗里的「刷新重试」同样可用\n3. 加载失败弹窗换成两个选项：刷新重试 / 换一档 DNS 再试；选 DNS 会列出六档（系统 / 阿里 / 腾讯 / 114 / 谷歌 / Cloudflare），选完立刻重载，不用绕去设置页\n4. DNS 选择持久保存：切好的那一档写进本地设置，重启 App 仍然沿用上次选的那档；选「系统默认」才会回到跟随本机\n5. 控制条维持四行排布：剧名+网速 / 进度条 / 时间单独一行 / 四个按钮一行"
+  "versionCode": 30,
+  "versionName": "1.0.29",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.29/video-collector-androidtv-v1.0.29.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.29.apk",
+  "size": 4398115,
+  "md5": "afdf9a3413a90c2edd02308c6802e3fd",
+  "notes": "1. 历史记录一部剧只留一条：换集看也只是把这条更新成最近看的那一集，不再一集一条刷屏；老数据读进来时自动合并成一条\n2. 历史里那条会带「第几集 · 看到几分几秒」，点进去直接续播那一集，上下集和选集照旧可用\n3. 播放中保持亮屏：正在放（含缓冲）时屏幕不会到点自动息屏，暂停或退出播放页就交回系统\n4. 主页加载失败可刷新：提示文字点一下就重拉，弹窗里可「刷新重试」或直接换一档 DNS 后重载\n5. DNS 那档选完会记住，重启 App 仍沿用上次选的档（选「系统默认」才回到跟随本机）；控制条维持四行排布"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 23,
-  "versionName": "1.0.22",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.22/video-collector-androidtv-v1.0.22.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.22.apk",
-  "size": 4396083,
-  "md5": "c4d287adec66b9b5a1ef31770639d137",
-  "notes": "1. 播放页换成自绘控制条：剧名 + 实时网速、可拖动的进度条、时间，以及 上一集 / 快退10s / 播放暂停 / 快进10s / 下一集 / 选集 六个按钮，都是圆角底，遥控器左右键能在这排之间走\n2. 多集自动连播：一集放完自动接下一集，最后一集停在结束画面，右下角提示「已是最后一集」\n3. 选集按钮直接弹整部剧的集数列表，当前集打 ●，点哪集播哪集，换集不退出播放页、不重新解析地址\n4. 选集页把整条线路的集数和当前索引一起传给播放页，所以上下集、连播、选集都对得上当前这条线路\n5. 控制条 6 秒无操作自动收起；点画面或按任意键唤出；遥控器菜单键仍是完整 / 铺满画面切换"
+  "versionCode": 24,
+  "versionName": "1.0.23",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.23/video-collector-androidtv-v1.0.23.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.23.apk",
+  "size": 4396595,
+  "md5": "a41574a29d67b93c9cf0205883a6f697",
+  "notes": "1. 修竖屏控制条被裁：按钮从 6 个减到 4 个（上集 / 播放暂停 / 下集 / 选集），文案压到两个字、间距收窄，窄屏竖屏一行放得下，不再溢出屏外和按钮重叠\n2. 快退快进不再单独占按钮：进度条本身可拿遥控器焦点，停上去左右键前后跳 10 秒；手机直接拖进度条\n3. 历史记录保存播放进度：每 5 秒 + 切后台 / 退出时把当前位置落到历史里\n4. 断点续看：再点同一集直接从上次的位置接着播，右下角提示「接着看 03:20」；快看完（最后 5 秒）或只看了开头 5 秒内则从头开始\n5. 历史列表每一条显示「第 N 集 · 看到 mm:ss」\n6. 换集时每一集各自有各自的进度，上一集没看完回头还能接着看"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 19,
-  "versionName": "1.0.18",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.18/video-collector-androidtv-v1.0.18.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.18.apk",
-  "size": 4384891,
-  "md5": "50a1f40df2b9c6c41ca0183e6274b05f",
-  "notes": "1. 下载失败原因拆到环节上：读清单 / 取解密密钥 / 第几片取不下来 / 写第几片失败 / 建文件失败，红字直接说明卡在哪一步\n2. 建文件失败时给出目录名和中文提示（选到 Download 根目录或存储根目录常被系统拒写，换个子文件夹即可）\n3. 已存在同名文件打不开时自动删掉重建；建文件按扩展名给正确 MIME（ts 用 video/mp2t，mp4 用 video/mp4），不再一律 octet-stream\n4. 存储不认 wt 写模式时自动退回默认模式，避免个别电视/手机的 U 盘目录写不进去\n5. 直链非 2xx 时提示「HTTP 403（链接可能已过期或被服务器拒绝）」，不再只给一个裸状态码"
+  "versionCode": 20,
+  "versionName": "1.0.19",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.19/video-collector-androidtv-v1.0.19.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.19.apk",
+  "size": 4386503,
+  "md5": "352509fe173d4a3c676b6c2aeee9a709",
+  "notes": "1. 弹窗里的选项行（播放 / 下载、选源、DNS 六档、界面模式）默认就是一块圆角卡片，不再是纯文字浮在弹窗上；遥控器聚焦变亮并加绿框，按下有涟漪\n2. 设置页每一行同样改成圆角卡片：界面模式 / DNS / 下载兜底 DNS / 下载保存目录 / 检查更新 / 当前版本，行间留 8dp 间隙\n3. 弹窗按钮（取消、确定、关闭）从半透明淡底改成圆角实底 + 1dp 描边，聚焦加绿框\n4. 手机端底栏四项（收藏 / 历史 / 下载 / 设置）改成圆角卡片，各留 4dp 间隙，选中态亮底 + 绿框\n5. 播放器页的剧名条与错误提示框也补上圆角，跟其它圆角统一"
 }

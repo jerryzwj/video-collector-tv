@@ -1,9 +1,9 @@
 {
-  "versionCode": 30,
-  "versionName": "1.0.29",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.29/video-collector-androidtv-v1.0.29.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.29.apk",
-  "size": 4398115,
-  "md5": "afdf9a3413a90c2edd02308c6802e3fd",
-  "notes": "1. 历史记录一部剧只留一条：换集看也只是把这条更新成最近看的那一集，不再一集一条刷屏；老数据读进来时自动合并成一条\n2. 历史里那条会带「第几集 · 看到几分几秒」，点进去直接续播那一集，上下集和选集照旧可用\n3. 播放中保持亮屏：正在放（含缓冲）时屏幕不会到点自动息屏，暂停或退出播放页就交回系统\n4. 主页加载失败可刷新：提示文字点一下就重拉，弹窗里可「刷新重试」或直接换一档 DNS 后重载\n5. DNS 那档选完会记住，重启 App 仍沿用上次选的档（选「系统默认」才回到跟随本机）；控制条维持四行排布"
+  "versionCode": 31,
+  "versionName": "1.0.30",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.30/video-collector-androidtv-v1.0.30.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.30.apk",
+  "size": 4404027,
+  "md5": "6441b86f0b890ac09b183d65e5db7150",
+  "notes": "1. 播放页加手势：长按画面 0.5 秒开始 3 倍速播放，松手立刻回到 1 倍速；画面上方有小提示条\n2. 左右滑动快退快进：整屏宽约等于 90 秒，滑到哪就跟到哪，松手才真的跳过去，中途有「快进 00:30 → 01:05」预览\n3. 轻点一下画面唤出 / 收起控制条，控制条上的按钮不受手势影响\n4. 搜索结果单独一页（二级页面）：搜索页提交后直接进结果页，结果铺成海报网格，可继续往下翻页，点结果进选集页\n5. 搜索不再把主页列表顶掉，返回还能改词再搜；历史一部剧一条、播放中亮屏、DNS 记住档位等照旧"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 16,
-  "versionName": "1.0.15",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.15/video-collector-androidtv-v1.0.15.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.15.apk",
-  "size": 4365698,
-  "md5": "d46c393a8caa5572e1e3f45116dfd9e1",
-  "notes": "1. 手机竖屏剧集卡圆角统一：卡片改成纯圆角底 + clipToOutline，海报和底部渐变一起裁成同一个圆角，不再上半直角、下半圆角\n2. 选集页点一集直接播放，提示改成「共 N 集 · 点一集直接播放，长按可勾选下载」\n3. 新增下载：长按集数勾选（勾中有绿框和 ✓），点右上「下载 (N)」批量下载\n4. 保存目录用系统文件选择器点选，选一次就记住（长按「下载」按钮可重选），不需要存储权限\n5. 下载走 App 自己的 HTTP 层，设置里的手动 DNS 对分片同样生效；m3u8 支持分片与 AES-128，直链边下边写，进度显示在提示行"
+  "versionCode": 17,
+  "versionName": "1.0.16",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.16/video-collector-androidtv-v1.0.16.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.16.apk",
+  "size": 4368762,
+  "md5": "39e28853a7e624c7613da73403042a34",
+  "notes": "1. 首页底栏新增「下载」入口，底栏变成 收藏 / 历史 / 下载 / 设置，TV 和手机两套布局都加了，底栏上直接显示还有几个在下\n2. 新增下载页：正在下载的队列铺在这里，一集一行，进度条 + 百分比 / 已下载大小，失败会写明原因，可「清空已完成」\n3. 下载队列两个线程并行跑，随时可以继续加新任务，正在下的不受影响，关掉页面也继续下\n4. 选集页改为点一集弹「播放 / 下载」，不再用长按勾选；选下载直接进队列，进度到下载页看\n5. 保存目录仍是系统文件选择器点选（第一次下载时选，选一次就记住）；选集页右上「下载队列」可直达下载页"
 }

@@ -1,9 +1,9 @@
 {
-  "versionCode": 25,
-  "versionName": "1.0.24",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.24/video-collector-androidtv-v1.0.24.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.24.apk",
-  "size": 4396927,
-  "md5": "654d3fb0c8b9150ee3270b2005e30ad8",
-  "notes": "1. 彻底修竖屏控制条出屏：按钮行改成按屏幕宽度自适应，窄屏四个按钮均分剩余宽度，一个都不会被挤出屏外；时间字号缩到 12sp 不再挤按钮\n2. 宽屏（电视 / 横屏）仍是内容宽度靠右排，按钮不会被拉成长条；单集播放时只剩一个按钮也不会撑满整行\n3. 历史记录点进去现在会先回选集页把整条线路拉全，再自动播上次那一集，所以上下集、连播、选集全都能用\n4. 详情解析不出来时用历史里存的直链兜底直接开播，不会卡在选集页\n5. 断点续看仍然生效：重新拉线路后按 剧集 id + 集名 对上上次的位置"
+  "versionCode": 28,
+  "versionName": "1.0.27",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.27/video-collector-androidtv-v1.0.27.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.27.apk",
+  "size": 4396643,
+  "md5": "dfff4921da81f26e6253c79449e304ac",
+  "notes": "1. 播放控制条重新排布：剧名+网速一行、进度条一行、时间单独一行、按钮单独一行，竖屏不再挤在一起\n2. 时间单独占一行左对齐，不再和按钮抢宽度\n3. 按钮一行四个（上集 / 播放暂停 / 下集 / 选集）：手机竖屏四个均分整行、每颗都够大，文字不会再被压成省略号；电视横屏按内容宽度靠左排\n4. 历史记录点进去先回选集页拉全线路再自动播上次那一集，上下集、连播、选集都能用\n5. 进度记忆保持：每 5 秒 + 退出时存位置，重新进来接着看"
 }

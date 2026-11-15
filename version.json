@@ -1,9 +1,9 @@
 {
-  "versionCode": 22,
-  "versionName": "1.0.21",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.21/video-collector-androidtv-v1.0.21.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.21.apk",
-  "size": 4391451,
-  "md5": "c2e42802e64ba54d87bc85fcf1c08e97",
-  "notes": "1. 播放画面默认改成完整显示（FIT）：竖屏短剧不再被裁掉上下，整幅都在，两侧留黑边；想看铺满可按遥控器菜单键切换，切的时候右下角会提示当前是完整还是铺满\n2. 竖屏视频在手机模式下自动把播放页转成竖屏，短剧整屏竖着看；电视仍是横屏，用完整画面看全\n3. 播放前加了加载动画：画面中间绿色转圈，下面写「缓冲中 · 1.2 MB/s」，不再是一片黑等\n4. 播放中控制条浮出来时，右下角显示实时网速（KB/s、MB/s），缓冲时也一直显示\n5. 网速只统计播放器自己的流量，不影响采集接口；代码里没动 DNS 逻辑"
+  "versionCode": 23,
+  "versionName": "1.0.22",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.22/video-collector-androidtv-v1.0.22.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.22.apk",
+  "size": 4396083,
+  "md5": "c4d287adec66b9b5a1ef31770639d137",
+  "notes": "1. 播放页换成自绘控制条：剧名 + 实时网速、可拖动的进度条、时间，以及 上一集 / 快退10s / 播放暂停 / 快进10s / 下一集 / 选集 六个按钮，都是圆角底，遥控器左右键能在这排之间走\n2. 多集自动连播：一集放完自动接下一集，最后一集停在结束画面，右下角提示「已是最后一集」\n3. 选集按钮直接弹整部剧的集数列表，当前集打 ●，点哪集播哪集，换集不退出播放页、不重新解析地址\n4. 选集页把整条线路的集数和当前索引一起传给播放页，所以上下集、连播、选集都对得上当前这条线路\n5. 控制条 6 秒无操作自动收起；点画面或按任意键唤出；遥控器菜单键仍是完整 / 铺满画面切换"
 }

@@ -3,7 +3,7 @@
   "versionName": "1.0.18",
   "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.18/video-collector-androidtv-v1.0.18.apk",
   "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.18.apk",
-  "size": 4384403,
-  "md5": "f2d4882d39dd615bafc8a1ab19f8be7f",
-  "notes": "1. 下载失败不再只甩一句英文：分片域名解析不到时会写明「解析不到域名 xxx（当前 DNS：xxx）」，下载页状态最多显示 3 行，域名能看全\n2. 分片请求重试从 3 次加到 5 次，退避 0.6 / 1.2 / 2 / 3 秒，网络抖动导致的失败能自己扛过去\n3. 设置页新增「下载兜底 DNS」开关（默认关）：分片域名用当前这档解析不到时，再用阿里/腾讯/114/CF/谷歌各试一次，只影响这一次请求，不会改你选的 DNS\n4. 失败提示里直接给出下一步：到 设置 → DNS 换一档后点「继续」，或回选集页换一条线路重下"
+  "size": 4384891,
+  "md5": "50a1f40df2b9c6c41ca0183e6274b05f",
+  "notes": "1. 下载失败原因拆到环节上：读清单 / 取解密密钥 / 第几片取不下来 / 写第几片失败 / 建文件失败，红字直接说明卡在哪一步\n2. 建文件失败时给出目录名和中文提示（选到 Download 根目录或存储根目录常被系统拒写，换个子文件夹即可）\n3. 已存在同名文件打不开时自动删掉重建；建文件按扩展名给正确 MIME（ts 用 video/mp2t，mp4 用 video/mp4），不再一律 octet-stream\n4. 存储不认 wt 写模式时自动退回默认模式，避免个别电视/手机的 U 盘目录写不进去\n5. 直链非 2xx 时提示「HTTP 403（链接可能已过期或被服务器拒绝）」，不再只给一个裸状态码"
 }

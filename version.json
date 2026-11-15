@@ -1,9 +1,9 @@
 {
-  "versionCode": 18,
-  "versionName": "1.0.17",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.17/video-collector-androidtv-v1.0.17.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.17.apk",
-  "size": 4382587,
-  "md5": "65e94cab85b82a7b0d3efe8c37ff6935",
-  "notes": "1. 所有弹窗换成自绘圆角：播放/下载选择、选源、DNS、没加载出来的重试、更新提示与下载进度、清空收藏确认，全部圆角底板，行和按钮按下有涟漪、遥控器聚焦有绿框\n2. 设置从弹窗改成整屏页面：界面模式 / DNS / 下载保存目录 / 检查更新 / 当前版本（连点 5 次临时开远程源），后期加功能直接加一行\n3. 下载记录落盘，重启 App 不丢；上次没下完的自动标成「已暂停」，点继续接着下，m3u8 从断掉的那片续、直链按 Range 续，不用整集重来\n4. 下载页每条支持 暂停 / 继续 / 取消，取消会顺手删掉已经写了一半的文件；同名文件不再重复建，目录里不会堆 (1)(2)(3)\n5. 首页底栏「下载」显示在跑数量，下载页顶部显示保存目录与 在跑 / 已完成 / 暂停 三个数量"
+  "versionCode": 19,
+  "versionName": "1.0.18",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.18/video-collector-androidtv-v1.0.18.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.18.apk",
+  "size": 4384403,
+  "md5": "f2d4882d39dd615bafc8a1ab19f8be7f",
+  "notes": "1. 下载失败不再只甩一句英文：分片域名解析不到时会写明「解析不到域名 xxx（当前 DNS：xxx）」，下载页状态最多显示 3 行，域名能看全\n2. 分片请求重试从 3 次加到 5 次，退避 0.6 / 1.2 / 2 / 3 秒，网络抖动导致的失败能自己扛过去\n3. 设置页新增「下载兜底 DNS」开关（默认关）：分片域名用当前这档解析不到时，再用阿里/腾讯/114/CF/谷歌各试一次，只影响这一次请求，不会改你选的 DNS\n4. 失败提示里直接给出下一步：到 设置 → DNS 换一档后点「继续」，或回选集页换一条线路重下"
 }

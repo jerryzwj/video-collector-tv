@@ -1,9 +1,9 @@
 {
-  "versionCode": 20,
-  "versionName": "1.0.19",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.19/video-collector-androidtv-v1.0.19.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.19.apk",
-  "size": 4386503,
-  "md5": "352509fe173d4a3c676b6c2aeee9a709",
-  "notes": "1. 弹窗里的选项行（播放 / 下载、选源、DNS 六档、界面模式）默认就是一块圆角卡片，不再是纯文字浮在弹窗上；遥控器聚焦变亮并加绿框，按下有涟漪\n2. 设置页每一行同样改成圆角卡片：界面模式 / DNS / 下载兜底 DNS / 下载保存目录 / 检查更新 / 当前版本，行间留 8dp 间隙\n3. 弹窗按钮（取消、确定、关闭）从半透明淡底改成圆角实底 + 1dp 描边，聚焦加绿框\n4. 手机端底栏四项（收藏 / 历史 / 下载 / 设置）改成圆角卡片，各留 4dp 间隙，选中态亮底 + 绿框\n5. 播放器页的剧名条与错误提示框也补上圆角，跟其它圆角统一"
+  "versionCode": 21,
+  "versionName": "1.0.20",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.20/video-collector-androidtv-v1.0.20.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.20.apk",
+  "size": 4387423,
+  "md5": "50d82fe528e7a4dcb7d013f3e73add4e",
+  "notes": "1. 弹窗里两个按钮不再贴在一起：间距 8dp 加到 12dp，各自是独立的圆角块\n2. 主操作按钮改成绿底深字（立即更新、确定这类），次操作保持深底绿字（稍后、取消、关闭），两个按钮一眼能分开哪个是主按钮\n3. 「发现新版本」弹窗的更新说明只显示前两条，其余折成「共 N 条更新说明」，弹窗不再撑满整屏"
 }

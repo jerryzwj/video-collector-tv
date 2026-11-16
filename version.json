@@ -1,9 +1,9 @@
 {
-  "versionCode": 35,
-  "versionName": "1.0.34",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.34/video-collector-androidtv-v1.0.34.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.34.apk",
-  "size": 4408363,
-  "md5": "c285db6366dc5747a335946b1132a56e",
-  "notes": "1. 修 bug：在设置里添加自定义采集源后，回主页「换源」列表当时不刷新、非要重启 App 才出现。现在每次回主页都会把源列表对齐一次，新增 / 删除的源立刻能看到\n2. 换源逻辑分开处理：只是新增或删除源，只刷新「换源」列表、不打断当前播放列表；真的换了当前源才整体重载；删掉正在用的源会自动退回内置源\n3. 采集源页「信息获取源 · 影视站长圈」（www.yszzq.com）照旧，点开去找接口地址\n4. 设置页「项目主页」一行照旧（github.com/jerryzwj/video-collector-tv）\n5. DNS 固定谷歌 8.8.8.8、自定义源本地保存 / 可删 / 可切换这些都没动"
+  "versionCode": 36,
+  "versionName": "1.0.35",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.35/video-collector-androidtv-v1.0.35.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.35.apk",
+  "size": 4409523,
+  "md5": "f23a5a807cb0efb61d4e396e217e24f2",
+  "notes": "1. 封面缓存改成内存 + 磁盘两层：翻几页再翻回前面，直接读本地图片，不再重新下载\n2. 内存缓存按进程可用内存的 1/6 算（24MB~96MB），比原来固定 24MB 宽敞；封面解码宽度从 640px 收到 480px，单张占用少四成、肉眼看不差\n3. 磁盘缓存落在 App 私有目录（filesDir/imgcache），上限 120MB，超了按最久没读的先删，不会无限涨\n4. 写盘先写临时文件再改名，进程被杀也不留半张图；启动时清一次临时残留\n5. 采集源即时刷新、信息获取源、项目主页链接、DNS 固定谷歌这些都没动"
 }

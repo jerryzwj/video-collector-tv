@@ -1,9 +1,9 @@
 {
-  "versionCode": 31,
-  "versionName": "1.0.30",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.30/video-collector-androidtv-v1.0.30.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.30.apk",
-  "size": 4404027,
-  "md5": "6441b86f0b890ac09b183d65e5db7150",
-  "notes": "1. 播放页加手势：长按画面 0.5 秒开始 3 倍速播放，松手立刻回到 1 倍速；画面上方有小提示条\n2. 左右滑动快退快进：整屏宽约等于 90 秒，滑到哪就跟到哪，松手才真的跳过去，中途有「快进 00:30 → 01:05」预览\n3. 轻点一下画面唤出 / 收起控制条，控制条上的按钮不受手势影响\n4. 搜索结果单独一页（二级页面）：搜索页提交后直接进结果页，结果铺成海报网格，可继续往下翻页，点结果进选集页\n5. 搜索不再把主页列表顶掉，返回还能改词再搜；历史一部剧一条、播放中亮屏、DNS 记住档位等照旧"
+  "versionCode": 32,
+  "versionName": "1.0.31",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.31/video-collector-androidtv-v1.0.31.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.31.apk",
+  "size": 4406943,
+  "md5": "5f82d3b96681f1264a7551e55f2d6940",
+  "notes": "1. DNS 固定成谷歌 8.8.8.8（8.8.4.4 备份），启动就是这一档，不再询问、也不跟随本机；设置页里「DNS」和「下载兜底 DNS」两行都去掉了\n2. 主页加载不出来时只提示刷新：弹窗只留「刷新重试」，文案改成「连不上服务器（源站被拦或域名解析不通），点这行字可刷新，也可以换个采集源再试」\n3. 设置页新增「采集源」，点进去是整屏页面：上半是源列表，内置源固定保留、标「使用中」，下半填名称 + 接口地址就能添加自定义源\n4. 自定义源存在本机（重启 App 还在），列表里可以删除；点某一行就切成当前源，回首页自动按新源重新加载\n5. 主页「换源」列表现在也包含自定义源；远程源的隐藏开启方式照旧（设置里连点版本号 5 次，重启失效）"
 }

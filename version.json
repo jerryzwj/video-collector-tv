@@ -1,9 +1,9 @@
 {
-  "versionCode": 34,
-  "versionName": "1.0.33",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.33/video-collector-androidtv-v1.0.33.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.33.apk",
-  "size": 4408067,
-  "md5": "168dde022d3609c614cec362c8ea844a",
-  "notes": "1. 采集源页加了「信息获取源 · 影视站长圈」一条（www.yszzq.com）：点「打开」或整行都会用浏览器跳过去，去那里找各家的采集接口地址\n2. 这条只是找地址的入口，不参与播放、也不能被删；找到地址后粘到下面的输入框「添加并保存」即可\n3. 页面说明改成「内置源固定保留；自定义源存在本机，重启也在，随时可删；找不到源就先点上面那条「信息获取源」」\n4. 设置页「项目主页」一行照旧（github.com/jerryzwj/video-collector-tv），点开是公开仓库\n5. 采集源添加 / 删除 / 切换、DNS 固定谷歌 8.8.8.8 这些照旧"
+  "versionCode": 35,
+  "versionName": "1.0.34",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.34/video-collector-androidtv-v1.0.34.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.34.apk",
+  "size": 4408363,
+  "md5": "c285db6366dc5747a335946b1132a56e",
+  "notes": "1. 修 bug：在设置里添加自定义采集源后，回主页「换源」列表当时不刷新、非要重启 App 才出现。现在每次回主页都会把源列表对齐一次，新增 / 删除的源立刻能看到\n2. 换源逻辑分开处理：只是新增或删除源，只刷新「换源」列表、不打断当前播放列表；真的换了当前源才整体重载；删掉正在用的源会自动退回内置源\n3. 采集源页「信息获取源 · 影视站长圈」（www.yszzq.com）照旧，点开去找接口地址\n4. 设置页「项目主页」一行照旧（github.com/jerryzwj/video-collector-tv）\n5. DNS 固定谷歌 8.8.8.8、自定义源本地保存 / 可删 / 可切换这些都没动"
 }

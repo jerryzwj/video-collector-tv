@@ -1,9 +1,9 @@
 {
-  "versionCode": 37,
-  "versionName": "1.0.36",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.36/video-collector-androidtv-v1.0.36.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.36.apk",
-  "size": 4411567,
-  "md5": "1c0288c598d7d7e9eb4e711f6a374d89",
-  "notes": "1. 修「主页显示正在加载后一片空白、什么提示都没有」：根因是启动 1.5 秒后的查更新回调在没消息时无条件清空了提示行，把刚显示的加载失败文案一起擦掉了。现在没消息就不动提示\n2. 加载中 / 加载失败 / 这个源没内容，改成压在列表中央的状态层：转圈 + 具体原因 + 一个「刷新」按钮，不再只靠底部一行小字\n3. 首页缓存：同一个采集源加载成功的第一页列表和分类会存到本地（重启也在），下次进这个源先把缓存铺上，网络请求在后台刷新，成功后替换\n4. 刷新失败但本地有缓存时，界面保留上次内容并提示「刷新没成功」，不再整屏空白；只有真的一无所有时才显示失败页\n5. 分类条加了选中高亮：当前分类绿底白字，遥控器焦点停下时额外加白描边，点完还会把该项滚到可见位置"
+  "versionCode": 38,
+  "versionName": "1.0.37",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.37/video-collector-androidtv-v1.0.37.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.37.apk",
+  "size": 4411575,
+  "md5": "d7413780234dc7450cfc50e211d38023",
+  "notes": "1. 封面磁盘缓存上限从 120MB 提到 300MB，淘汰线留 220MB：看得多了也不会一动就清空，翻回前面照样直接出图\n2. 内存那层照旧按可用内存 1/6 分配（24MB~96MB），封面解码宽度 480px\n3. 磁盘满了仍按最久没读的先删，保留最近读过的，不会无限涨\n4. 首页缓存（第一页列表 + 分类，重启还在）、居中状态层（转圈 / 失败原因 / 刷新按钮）、分类选中高亮都照旧\n5. 查更新没消息时不再清掉提示行这个修复也在"
 }

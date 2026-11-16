@@ -1,9 +1,9 @@
 {
-  "versionCode": 33,
-  "versionName": "1.0.32",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.32/video-collector-androidtv-v1.0.32.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.32.apk",
-  "size": 4407007,
-  "md5": "3d9c291a1c33e1300928967cb1d56308",
-  "notes": "1. 设置页新增「项目主页」一行，显示公开仓库地址 github.com/jerryzwj/video-collector-tv，点一下直接用浏览器打开（设备上没有浏览器就把地址显示出来）\n2. 这一版还是上一轮的改动：DNS 固定谷歌 8.8.8.8、设置页去掉 DNS 与下载兜底 DNS 两项、加载失败只提示刷新\n3. 设置页「采集源」整屏页面：添加自定义源（名称 + 接口地址）、存本机重启还在、可删除、点一下切换\n4. 主页「换源」列表包含自定义源；远程源隐藏开启方式照旧（设置里连点版本号 5 次）\n5. 上手顺序：设置 → 采集源 → 填地址 → 添加并保存；回首页会自动按新源重新加载"
+  "versionCode": 34,
+  "versionName": "1.0.33",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.33/video-collector-androidtv-v1.0.33.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.33.apk",
+  "size": 4408067,
+  "md5": "168dde022d3609c614cec362c8ea844a",
+  "notes": "1. 采集源页加了「信息获取源 · 影视站长圈」一条（www.yszzq.com）：点「打开」或整行都会用浏览器跳过去，去那里找各家的采集接口地址\n2. 这条只是找地址的入口，不参与播放、也不能被删；找到地址后粘到下面的输入框「添加并保存」即可\n3. 页面说明改成「内置源固定保留；自定义源存在本机，重启也在，随时可删；找不到源就先点上面那条「信息获取源」」\n4. 设置页「项目主页」一行照旧（github.com/jerryzwj/video-collector-tv），点开是公开仓库\n5. 采集源添加 / 删除 / 切换、DNS 固定谷歌 8.8.8.8 这些照旧"
 }

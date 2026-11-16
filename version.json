@@ -1,9 +1,9 @@
 {
-  "versionCode": 32,
-  "versionName": "1.0.31",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.31/video-collector-androidtv-v1.0.31.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.31.apk",
-  "size": 4406943,
-  "md5": "5f82d3b96681f1264a7551e55f2d6940",
-  "notes": "1. DNS 固定成谷歌 8.8.8.8（8.8.4.4 备份），启动就是这一档，不再询问、也不跟随本机；设置页里「DNS」和「下载兜底 DNS」两行都去掉了\n2. 主页加载不出来时只提示刷新：弹窗只留「刷新重试」，文案改成「连不上服务器（源站被拦或域名解析不通），点这行字可刷新，也可以换个采集源再试」\n3. 设置页新增「采集源」，点进去是整屏页面：上半是源列表，内置源固定保留、标「使用中」，下半填名称 + 接口地址就能添加自定义源\n4. 自定义源存在本机（重启 App 还在），列表里可以删除；点某一行就切成当前源，回首页自动按新源重新加载\n5. 主页「换源」列表现在也包含自定义源；远程源的隐藏开启方式照旧（设置里连点版本号 5 次，重启失效）"
+  "versionCode": 33,
+  "versionName": "1.0.32",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.32/video-collector-androidtv-v1.0.32.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.32.apk",
+  "size": 4407007,
+  "md5": "3d9c291a1c33e1300928967cb1d56308",
+  "notes": "1. 设置页新增「项目主页」一行，显示公开仓库地址 github.com/jerryzwj/video-collector-tv，点一下直接用浏览器打开（设备上没有浏览器就把地址显示出来）\n2. 这一版还是上一轮的改动：DNS 固定谷歌 8.8.8.8、设置页去掉 DNS 与下载兜底 DNS 两项、加载失败只提示刷新\n3. 设置页「采集源」整屏页面：添加自定义源（名称 + 接口地址）、存本机重启还在、可删除、点一下切换\n4. 主页「换源」列表包含自定义源；远程源隐藏开启方式照旧（设置里连点版本号 5 次）\n5. 上手顺序：设置 → 采集源 → 填地址 → 添加并保存；回首页会自动按新源重新加载"
 }

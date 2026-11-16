@@ -1,9 +1,9 @@
 {
-  "versionCode": 38,
-  "versionName": "1.0.37",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.37/video-collector-androidtv-v1.0.37.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.37.apk",
-  "size": 4411575,
-  "md5": "d7413780234dc7450cfc50e211d38023",
-  "notes": "1. 封面磁盘缓存上限从 120MB 提到 300MB，淘汰线留 220MB：看得多了也不会一动就清空，翻回前面照样直接出图\n2. 内存那层照旧按可用内存 1/6 分配（24MB~96MB），封面解码宽度 480px\n3. 磁盘满了仍按最久没读的先删，保留最近读过的，不会无限涨\n4. 首页缓存（第一页列表 + 分类，重启还在）、居中状态层（转圈 / 失败原因 / 刷新按钮）、分类选中高亮都照旧\n5. 查更新没消息时不再清掉提示行这个修复也在"
+  "versionCode": 39,
+  "versionName": "1.0.38",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.38/video-collector-androidtv-v1.0.38.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.38.apk",
+  "size": 4412215,
+  "md5": "4da18a32adceea5c636f109da51ce92a",
+  "notes": "1. 上滑加载下一页现在有反馈：列表底部会显示「正在加载更多…」，加载完自动消失\n2. 翻到最后一页会明说「已经到底了 · 共 N 部」，不再让人以为是内容断了\n3. 下一页没加载出来时，底部那行变成「更多没加载出来，点这里重试」，点一下就地重试、不用从头刷\n4. 封面磁盘缓存上限 300MB（上一版从 120MB 提上来的），首页缓存、居中状态层、分类选中高亮都照旧\n5. TV 遥控器一直往下按也走同一套反馈"
 }

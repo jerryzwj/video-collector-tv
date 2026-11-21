@@ -1,9 +1,9 @@
 {
-  "versionCode": 43,
-  "versionName": "1.0.42",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.42/video-collector-androidtv-v1.0.42.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.42.apk",
-  "size": 4414575,
-  "md5": "6d9fba94e9f2d5a36ede0b43370822ee",
-  "notes": "1. 内置采集源改回豪华资源（hhzyapi.com），仍然是唯一内置源；自建的 jian.zhangwenjun.eu.org 从内置里撤掉\n2. 撤掉原因：jian 那个站给的播放直链域名 vodcnd*.tix8opu.cn 解析不到，接口能给选集、但点了必然播不出来\n3. 停在 jian 上的用户首次打开会自动迁回豪华资源，自定义源照旧不动\n4. 「采集源」页还是只列这一个内置源（不可删），其它地址可以自己添加、切换、删除\n5. 剧集页封面、长标题两行、剧情简介（年份·地区·语言·评分 / 主演 / 可展开全文）都保留\n6. 接口回业务错误码（如 1002）时会直说原因，不再静默成「没有内容」"
+  "versionCode": 44,
+  "versionName": "1.0.43",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.43/video-collector-androidtv-v1.0.43.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.43.apk",
+  "size": 4414791,
+  "md5": "a5d7b06c977cd4bc86a12638cb870bac",
+  "notes": "1. 默认采集源改成内置合集：从 TVBOX 纯净版里整理出来、逐条实测「首集真能取到 200」的 10 个源，按片库量从大到小排，默认用「最大资源」\n2. 「采集源」页里这 10 个都是内置源（不可删），随时可以切；最大资源、无尽影视、红牛、虎牙、极速、非凡、魔都资源、魔都动漫、360 资源、爱奇艺\n3. 远程源一点没动：还是原来那份 caiji-video 清单，还是要设置页连点「当前版本」5 次才开启，跟内置合集互不影响\n4. 停在旧默认源（豪华资源 / FFZY / jian）上的老用户首次打开会自动迁到合集第一个，自定义源和远程源不动\n5. 合集里没放播放域名解析不到的源（茅台资源、猫眼资源那一批已排除），避免点进去播不了\n6. 剧集页封面、长标题两行、剧情简介（年份·地区·语言·评分 / 主演 / 可展开全文）、封面缓存 300MB、翻页反馈都照旧"
 }

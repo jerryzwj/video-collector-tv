@@ -1,9 +1,9 @@
 {
-  "versionCode": 39,
-  "versionName": "1.0.38",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.38/video-collector-androidtv-v1.0.38.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.38.apk",
-  "size": 4412215,
-  "md5": "4da18a32adceea5c636f109da51ce92a",
-  "notes": "1. 上滑加载下一页现在有反馈：列表底部会显示「正在加载更多…」，加载完自动消失\n2. 翻到最后一页会明说「已经到底了 · 共 N 部」，不再让人以为是内容断了\n3. 下一页没加载出来时，底部那行变成「更多没加载出来，点这里重试」，点一下就地重试、不用从头刷\n4. 封面磁盘缓存上限 300MB（上一版从 120MB 提上来的），首页缓存、居中状态层、分类选中高亮都照旧\n5. TV 遥控器一直往下按也走同一套反馈"
+  "versionCode": 40,
+  "versionName": "1.0.39",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.39/video-collector-androidtv-v1.0.39.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.39.apk",
+  "size": 4413967,
+  "md5": "efae8260c6184710e30af6ca5551cc93",
+  "notes": "1. 选集页顶部补上封面，标题最多两行，长剧名不再被截成「我家的弟弟们真是让...」\n2. 默认采集源换成「豪华资源」（hhzyapi），换源列表里同时保留 FFZY 采集源；老用户首次打开会自动迁到新源，自定义源不动\n3. 剧集页新增剧情简介：年份·地区·语言·评分一行，主演一行，简介默认两行、点一下展开全文\n4. 内置源在「采集源」页固定保留、不可删除，自定义源照旧可增删、可切换\n5. 简介取自采集接口的 vod_content，接口没给就自动隐去，不影响选集和播放\n6. 封面磁盘缓存 300MB、翻页加载反馈、分类选中高亮都照旧"
 }

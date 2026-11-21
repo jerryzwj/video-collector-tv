@@ -1,9 +1,9 @@
 {
-  "versionCode": 40,
-  "versionName": "1.0.39",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.39/video-collector-androidtv-v1.0.39.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.39.apk",
-  "size": 4413967,
-  "md5": "efae8260c6184710e30af6ca5551cc93",
-  "notes": "1. 选集页顶部补上封面，标题最多两行，长剧名不再被截成「我家的弟弟们真是让...」\n2. 默认采集源换成「豪华资源」（hhzyapi），换源列表里同时保留 FFZY 采集源；老用户首次打开会自动迁到新源，自定义源不动\n3. 剧集页新增剧情简介：年份·地区·语言·评分一行，主演一行，简介默认两行、点一下展开全文\n4. 内置源在「采集源」页固定保留、不可删除，自定义源照旧可增删、可切换\n5. 简介取自采集接口的 vod_content，接口没给就自动隐去，不影响选集和播放\n6. 封面磁盘缓存 300MB、翻页加载反馈、分类选中高亮都照旧"
+  "versionCode": 41,
+  "versionName": "1.0.40",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.40/video-collector-androidtv-v1.0.40.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.40.apk",
+  "size": 4414539,
+  "md5": "24fb9fdf86b1fd3a1a3aa1b85506e7d6",
+  "notes": "1. 默认采集源改为自建的 jian.zhangwenjun.eu.org（「简·采集源」）：ac=list、ac=detail、ids 详情都实测通过，分类 54 项，播放直链是 m3u8\n2. 「采集源」页现在是三个内置源：简·采集源（默认）、豪华资源、FFZY 采集源，均可随时切换、都不可删\n3. 停在旧默认源（FFZY / 豪华资源）上的老用户首次打开会自动迁到新默认源，自定义源和远程源不动\n4. 这个自建源关掉了关键词搜索，所以搜不到时不再是一片空白，会直接说「这个采集源不支持关键词搜索，换个采集源再搜」\n5. 接口回业务错误码（如 1002）时把原文提示透到界面上，不再静默成「没有内容」\n6. 选集页封面、长标题两行、剧情简介（年份·地区·语言·评分 / 主演 / 可展开全文）都照旧"
 }

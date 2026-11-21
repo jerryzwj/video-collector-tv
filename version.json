@@ -1,9 +1,9 @@
 {
-  "versionCode": 42,
-  "versionName": "1.0.41",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.41/video-collector-androidtv-v1.0.41.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.41.apk",
-  "size": 4414607,
-  "md5": "3c5f22956c70dfd133197bf153805322",
-  "notes": "1. 内置采集源只留一个：简·采集源（jian.zhangwenjun.eu.org），豪华资源和 FFZY 从内置列表里撤掉了\n2. 「采集源」页现在只列这一个内置源（不可删），下面就是你自己加的源，随时可切换、可删\n3. 停在豪华资源 / FFZY 上的老用户首次打开会自动迁到简·采集源；已经切到自定义源的照旧不动\n4. 采集接口的地址想换成别的，还是照旧在「采集源」页添加即可\n5. 剧集页封面、长标题两行、剧情简介（年份·地区·语言·评分 / 主演 / 可展开全文）照旧\n6. 接口回业务错误码时会透出原文提示，自建源禁搜时也会直说，不静默成「没有内容」"
+  "versionCode": 43,
+  "versionName": "1.0.42",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.42/video-collector-androidtv-v1.0.42.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.42.apk",
+  "size": 4414575,
+  "md5": "6d9fba94e9f2d5a36ede0b43370822ee",
+  "notes": "1. 内置采集源改回豪华资源（hhzyapi.com），仍然是唯一内置源；自建的 jian.zhangwenjun.eu.org 从内置里撤掉\n2. 撤掉原因：jian 那个站给的播放直链域名 vodcnd*.tix8opu.cn 解析不到，接口能给选集、但点了必然播不出来\n3. 停在 jian 上的用户首次打开会自动迁回豪华资源，自定义源照旧不动\n4. 「采集源」页还是只列这一个内置源（不可删），其它地址可以自己添加、切换、删除\n5. 剧集页封面、长标题两行、剧情简介（年份·地区·语言·评分 / 主演 / 可展开全文）都保留\n6. 接口回业务错误码（如 1002）时会直说原因，不再静默成「没有内容」"
 }

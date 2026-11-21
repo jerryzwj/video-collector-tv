@@ -1,9 +1,9 @@
 {
-  "versionCode": 44,
-  "versionName": "1.0.43",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.43/video-collector-androidtv-v1.0.43.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.43.apk",
-  "size": 4414791,
-  "md5": "a5d7b06c977cd4bc86a12638cb870bac",
-  "notes": "1. 默认采集源改成内置合集：从 TVBOX 纯净版里整理出来、逐条实测「首集真能取到 200」的 10 个源，按片库量从大到小排，默认用「最大资源」\n2. 「采集源」页里这 10 个都是内置源（不可删），随时可以切；最大资源、无尽影视、红牛、虎牙、极速、非凡、魔都资源、魔都动漫、360 资源、爱奇艺\n3. 远程源一点没动：还是原来那份 caiji-video 清单，还是要设置页连点「当前版本」5 次才开启，跟内置合集互不影响\n4. 停在旧默认源（豪华资源 / FFZY / jian）上的老用户首次打开会自动迁到合集第一个，自定义源和远程源不动\n5. 合集里没放播放域名解析不到的源（茅台资源、猫眼资源那一批已排除），避免点进去播不了\n6. 剧集页封面、长标题两行、剧情简介（年份·地区·语言·评分 / 主演 / 可展开全文）、封面缓存 300MB、翻页反馈都照旧"
+  "versionCode": 45,
+  "versionName": "1.0.44",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.44/video-collector-androidtv-v1.0.44.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.44.apk",
+  "size": 4416675,
+  "md5": "daaed292f75133e68c6e80621f299ba5",
+  "notes": "1. 内置合集支持在线更新：开机后静默拉 caiji-tvbox 清单（6 小时最多一次），不用再为换源发版\n2. 编译优先、在线兜底：APK 里那 10 个源永远排在最前面，默认源固定是「最大资源」；在线清单只把新源追加在后面，不会顶掉、也不会重排\n3. 拉取走 gh-proxy / ghfast / jsDelivr / raw 四条线路，谁先给得出能用的清单就用谁，全挂就继续用编译的那份\n4. 拉到过的清单会存磁盘，下次启动先用它追加，再后台刷新；清单被改坏或退回空表就自动忽略，界面不会缺源\n5. 远程源一点没动：还是原来那份 caiji-video，还是要设置页连点「当前版本」5 次才开启\n6. 剧集页封面、长标题两行、剧情简介、封面缓存 300MB、翻页反馈都照旧"
 }

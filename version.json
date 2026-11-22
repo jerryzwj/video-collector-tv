@@ -1,9 +1,9 @@
 {
-  "versionCode": 47,
-  "versionName": "1.0.46",
-  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.46/video-collector-androidtv-v1.0.46.apk",
-  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.46.apk",
-  "size": 4422647,
-  "md5": "c38747225853beb2a7c775b09219bd23",
-  "notes": "1. 采集源页右上「测速」一键把整张列表（内置 10 个 + 自定义源）查一遍，不用逐条点\n2. 测的不是「能不能连上」，而是「能不能取到分类」：真的去解 ac=list 返回的 JSON，有 class（或 list）才算通过\n3. 结果分四种：正常显示「128 ms」，能连上但拿不到分类显示「无分类」，连不上显示「失败」，没测过是「—」\n4. 延迟按首包时间算并分档上色：300ms 以内绿、800ms 以内橙、更慢或失败红；「无分类」也用橙，跟彻底连不上分开\n5. 5 秒超时、一次最多 3 条并发，免得自己把延迟挤高；结果存本机，重启 App、退出页面都还在，测完报一句「共几条、几条不可用」\n6. 本机实测 10 条内置源全部能取到分类（31~63 个），内置合集/远程源/剧集页那些都照旧"
+  "versionCode": 48,
+  "versionName": "1.0.47",
+  "apkUrl": "https://github.com/jerryzwj/video-collector-tv/releases/download/tv-v1.0.47/video-collector-androidtv-v1.0.47.apk",
+  "apkUrlMirror": "https://cdn.jsdelivr.net/gh/jerryzwj/video-collector-tv@main/apk/video-collector-androidtv-v1.0.47.apk",
+  "size": 4423091,
+  "md5": "3e3396a15cc4676a8316a2840213f647",
+  "notes": "1. 测速完了自动排序：延迟从低到高，最快的直接排到列表最上面，不用再一行行比数字\n2. 排序把内置源和自定义源放在同一张表里比，切换源、增删源都照旧可用\n3. 排序规则：可用的按毫秒升序在前，之后依次是「无分类」「失败」「没测过」，不会把不可用的顶到上面\n4. 排序只在采集源这一页里生效，重进页面恢复默认顺序：编译进来的 10 个仍在前，默认源仍是「最大资源」\n5. 测速结果本身照样存本机，重启 App 还在；测完会报一句「共几条、几条不可用，已按延迟排」\n6. 内置合集编译优先/在线兜底、远程源、剧集页那些都照旧"
 }
